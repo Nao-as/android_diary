@@ -61,7 +61,7 @@ const CalendarScreen = ({navigation}) => {
     const [title, settitle] = useState('');
     const [day, setDay] = useState('');
 
-    const [isDatePickerVisible, setDatePickerVisibility] = useState(false); //表示
+    // const [isDatePickerVisible, setDatePickerVisibility] = useState(false); //表示
     
     return (
         <Content padder>
